@@ -3,7 +3,7 @@ from flask import render_template
 import fbchat
 import base64
 
-client = fbchat.Client("marikalee15@gmail.com",)
+client = fbchat.Client("marikalee15@gmail.com", base64.b64decode("QyFOdGE4a3UxMjMh"))
 
 app = Flask(__name__)
 
